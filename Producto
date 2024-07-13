@@ -1,0 +1,30 @@
+package programacionOrientada;// Define el paquete al que pertenece la clase, en este caso 'Poo'
+
+
+public class Producto { 
+
+		    public static void main(String[] args) { // Método principal, punto de entrada del programa
+		        
+		        // Crear una instancia de la clase Producto
+		        Main miProducto = new Main();
+		        
+		        // Establecer y mostrar el nombre del producto
+		        miProducto.setNombreProducto("Cadena");
+		        System.out.println("Nombre del Producto: " + miProducto.getNombreProducto());
+		        
+		        // Establecer y mostrar el identificador del producto
+		        miProducto.setIdProducto("FFFFF12");
+		        System.out.println("ID del Producto: " + miProducto.getIdProducto());
+		        
+		        // Establecer y mostrar el precio del producto
+		        miProducto.setPrecioProducto(500);
+		        System.out.println("Precio del Producto: $" + miProducto.getPrecioProducto());
+		        
+		        // Establecer y mostrar las existencias del producto
+		        miProducto.setStockProducto(6);
+		        System.out.println("Existencias del Producto: " + miProducto.getStockProducto());
+		    }
+		
+
+	}
+
