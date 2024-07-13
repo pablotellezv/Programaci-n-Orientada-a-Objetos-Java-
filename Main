@@ -1,0 +1,43 @@
+package programacionOrientada; // Define el paquete al que pertenece la clase
+
+public class Main {
+	
+	    // Atributos privados de la clase Producto
+	    private String idProducto; // Identificador único del producto
+	    private String nombreProducto; // Nombre del producto
+	    private double precioProducto = 0.0; // Precio del product
+	    private int stockProducto = 0; // Cantidad de existencias del producto
+	    
+	    // Métodos getter y setter para cada atributo
+	    public String getIdProducto() {
+	        return idProducto;
+	    }
+
+	    public void setIdProducto(String idProducto) {
+	        this.idProducto = idProducto;
+	    }
+
+	    public String getNombreProducto() {
+	        return nombreProducto;
+	    }
+
+	    public void setNombreProducto(String nombreProducto) {
+	        this.nombreProducto = nombreProducto;
+	    }
+
+	    public double getPrecioProducto() {
+	        return precioProducto;
+	    }
+
+	    public void setPrecioProducto(double precioProducto) {
+	        this.precioProducto = precioProducto;
+	    }
+
+	    public int getStockProducto() {
+	        return stockProducto;
+	    }
+
+	    public void setStockProducto(int stockProducto) {
+	        this.stockProducto = stockProducto;
+	    }
+	}
